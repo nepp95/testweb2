@@ -1,0 +1,19 @@
+@import 'tailwindcss' source(none);
+
+@source '../views/admin';
+@source '../views/auth';
+@source '../views/components/admin';
+@source '../views/components/layouts/admin.blade.php';
+
+@theme {
+    --font-sans: var(--font-body, ui-sans-serif, system-ui, sans-serif);
+    --color-brand-50: #eef4f3;
+    --color-brand-100: #dce8e6;
+    --color-brand-700: #0e3b3b;
+    --color-brand-900: #082a2a;
+    --color-rust-700: #7e351c;
+    --color-rust-800: #652a16;
+    --color-sand-50: #faf6ef;
+    --color-sand-100: #f6efe4;
+    --color-sand-300: #ecdfcb;
+}
