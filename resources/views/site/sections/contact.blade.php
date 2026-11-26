@@ -19,7 +19,7 @@
                         @if ($settings->phoneHref())
                             <a href="{{ $settings->phoneHref() }}">{{ $settings->get(SettingKey::Phone) }}</a>
                         @else
-                            <span>{{ $settings->get(SettingKey::Phone) }}</span>
+                            <span class="contact-value">{{ $settings->get(SettingKey::Phone) }}</span>
                         @endif
                         @if (filled($settings->get(SettingKey::PhoneHours)))
                             <span class="contact-note">{{ $settings->get(SettingKey::PhoneHours) }}</span>
@@ -32,7 +32,7 @@
                         @if ($settings->whatsAppHref())
                             <a href="{{ $settings->whatsAppHref() }}">{{ $settings->get(SettingKey::WhatsApp) }}</a>
                         @else
-                            <span>{{ $settings->get(SettingKey::WhatsApp) }}</span>
+                            <span class="contact-value">{{ $settings->get(SettingKey::WhatsApp) }}</span>
                         @endif
                     </li>
                 @endif
@@ -42,7 +42,7 @@
                         @if ($settings->publicEmail())
                             <a href="mailto:{{ $settings->publicEmail() }}">{{ $settings->publicEmail() }}</a>
                         @else
-                            <span>{{ $settings->get(SettingKey::Email) }}</span>
+                            <span class="contact-value">{{ $settings->get(SettingKey::Email) }}</span>
                         @endif
                     </li>
                 @endif

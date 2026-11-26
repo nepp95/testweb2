@@ -103,7 +103,7 @@ enum SettingKey: string
             self::Phone => '[telefoonnummer]',
             self::PhoneHours => 'maandag t/m vrijdag, 9.00–17.00 uur',
             self::WhatsApp => '[WhatsApp-nummer]',
-            self::Email => '[email]',
+            self::Email => 'info@example.nl',
             self::Address => '[adres]',
             self::VisitNote => 'Alleen op afspraak',
             self::FormRecipient => '',

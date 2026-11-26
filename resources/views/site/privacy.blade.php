@@ -1,6 +1,6 @@
 @use('App\Enums\SettingKey')
 @use('App\Support\Markdown')
-<x-layouts.site title="Privacyverklaring" noindex class="page">
+<x-layouts.site title="Privacyverklaring" noindex :minimal="true" class="page">
     <div class="container narrow">
         <a class="back-link" href="{{ route('home') }}">← Terug naar de homepage</a>
         <h1>Privacyverklaring</h1>
